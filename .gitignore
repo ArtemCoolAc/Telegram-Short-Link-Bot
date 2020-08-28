@@ -1,0 +1,8 @@
+lib/
+lib64
+.idea
+*.cfg
+share/
+bin/
+__pycache__/
+short_link_bot/
