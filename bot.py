@@ -106,6 +106,7 @@ class Bot:
             url = context.args[0]
             if len(context.args) > 1 or not validators.url(context.args[0]):
                 context.bot.send_message(chat_id=update.effective_chat.id, text='Некорректный URL')
+                raise ValueError('Некорректный URL')
             else:
                 with requests.Session() as session:
                     request_data = {'url': url}
@@ -122,6 +123,7 @@ class Bot:
                     else:
                         message = f'Произошла ошибка во время запроса к API: код {response.status_code}'
                         context.bot.send_message(chat_id=update.effective_chat.id, text=message)
+                        raise RuntimeError(message)
 
         except Exception as e:
             logging.error(e)
