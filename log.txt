@@ -401,3 +401,457 @@
 2020-08-29 01:11:16,176 - telegram.bot - DEBUG - []
 2020-08-29 01:11:16,177 - telegram.bot - DEBUG - Exiting: get_updates
 2020-08-29 01:11:16,177 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:10:18,619 - root - ERROR - could not translate host name "postgresql" to address: Name or service not known
+
+2020-08-29 15:10:18,635 - root - ERROR - 'NoneType' object has no attribute 'cursor'
+2020-08-29 15:11:18,151 - telegram.ext.dispatcher - DEBUG - Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x7fb20ac63dd0>
+2020-08-29 15:11:18,152 - telegram.bot - DEBUG - Entering: get_me
+2020-08-29 15:11:18,153 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.telegram.org
+2020-08-29 15:11:18,379 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getMe HTTP/1.1" 200 202
+2020-08-29 15:11:18,380 - telegram.bot - DEBUG - {'id': 1255478538, 'first_name': 'short-link-bot', 'is_bot': True, 'username': 'ShortLinkAPIBot', 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}
+2020-08-29 15:11:18,380 - telegram.bot - DEBUG - Exiting: get_me
+2020-08-29 15:11:18,380 - telegram.bot - DEBUG - Entering: get_my_commands
+2020-08-29 15:11:18,457 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getMyCommands HTTP/1.1" 200 23
+2020-08-29 15:11:18,457 - telegram.bot - DEBUG - []
+2020-08-29 15:11:18,458 - telegram.bot - DEBUG - Exiting: get_my_commands
+2020-08-29 15:11:18,458 - JobQueue - DEBUG - JobQueue thread started
+2020-08-29 15:11:18,458 - telegram.ext.updater - DEBUG - Bot:1255478538:dispatcher - started
+2020-08-29 15:11:18,459 - telegram.ext.updater - DEBUG - Bot:1255478538:updater - started
+2020-08-29 15:11:18,459 - telegram.ext.updater - DEBUG - Updater thread started (polling)
+2020-08-29 15:11:18,459 - telegram.ext.updater - DEBUG - Start network loop retry bootstrap del webhook
+2020-08-29 15:11:18,459 - telegram.bot - DEBUG - Entering: delete_webhook
+2020-08-29 15:11:18,461 - telegram.ext.dispatcher - DEBUG - Dispatcher started
+2020-08-29 15:11:18,521 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/deleteWebhook HTTP/1.1" 200 68
+2020-08-29 15:11:18,522 - telegram.bot - DEBUG - True
+2020-08-29 15:11:18,522 - telegram.bot - DEBUG - Exiting: delete_webhook
+2020-08-29 15:11:18,522 - telegram.ext.updater - DEBUG - Bootstrap done
+2020-08-29 15:11:18,522 - telegram.ext.updater - DEBUG - Start network loop retry getting Updates
+2020-08-29 15:11:18,522 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:11:28,585 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:11:28,585 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:11:28,585 - telegram.bot - DEBUG - []
+2020-08-29 15:11:28,585 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:11:28,585 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:11:38,648 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:11:38,649 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:11:38,649 - telegram.bot - DEBUG - []
+2020-08-29 15:11:38,649 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:11:38,649 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:11:48,712 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:11:48,713 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:11:48,713 - telegram.bot - DEBUG - []
+2020-08-29 15:11:48,713 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:11:48,713 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:11:58,779 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:11:58,780 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:11:58,780 - telegram.bot - DEBUG - []
+2020-08-29 15:11:58,780 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:11:58,780 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:11:58,844 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 581
+2020-08-29 15:11:58,844 - telegram.bot - DEBUG - Getting updates: [768019627]
+2020-08-29 15:11:58,844 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x7fb20ac718d0>]
+2020-08-29 15:11:58,844 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:11:58,845 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:11:58,845 - telegram.ext.dispatcher - DEBUG - Processing Update: {'update_id': 768019627, 'message': {'message_id': 190, 'date': 1598703118, 'chat': {'id': 673847703, 'type': 'private', 'username': 'ArtemCoolAc', 'first_name': 'Артем', 'last_name': 'Кутузов'}, 'text': '/shorten https://mail.ru', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 8}, {'type': 'url', 'offset': 9, 'length': 15}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 673847703, 'first_name': 'Артем', 'is_bot': False, 'last_name': 'Кутузов', 'username': 'ArtemCoolAc', 'language_code': 'ru'}}}
+2020-08-29 15:11:58,845 - root - INFO - Аргументы команды укорачивания: ['https://mail.ru']
+2020-08-29 15:12:01,856 - telegram.bot - DEBUG - Entering: send_message
+2020-08-29 15:12:01,857 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (2): api.telegram.org
+2020-08-29 15:12:02,141 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/sendMessage HTTP/1.1" 200 512
+2020-08-29 15:12:02,142 - telegram.bot - DEBUG - {'message_id': 191, 'date': 1598703122, 'chat': {'id': 673847703, 'type': 'private', 'username': 'ArtemCoolAc', 'first_name': 'Артем', 'last_name': 'Кутузов'}, 'text': 'Сокращенная ссылка https://rel.ink/nKDQvx', 'entities': [{'type': 'url', 'offset': 19, 'length': 22}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1255478538, 'first_name': 'short-link-bot', 'is_bot': True, 'username': 'ShortLinkAPIBot'}}
+2020-08-29 15:12:02,143 - telegram.bot - DEBUG - Exiting: send_message
+2020-08-29 15:12:02,143 - root - INFO - INSERT INTO requests_history VALUES 
+                  (DEFAULT, 'https://mail.ru', 'https://rel.ink/nKDQvx', '2020-08-29 15:12:01.856611');
+2020-08-29 15:12:05,687 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 527
+2020-08-29 15:12:05,688 - telegram.bot - DEBUG - Getting updates: [768019628]
+2020-08-29 15:12:05,688 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x7fb20ecb7790>]
+2020-08-29 15:12:05,689 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:12:05,689 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:12:05,689 - telegram.ext.dispatcher - DEBUG - Processing Update: {'update_id': 768019628, 'message': {'message_id': 192, 'date': 1598703125, 'chat': {'id': 673847703, 'type': 'private', 'username': 'ArtemCoolAc', 'first_name': 'Артем', 'last_name': 'Кутузов'}, 'text': '/history', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 8}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 673847703, 'first_name': 'Артем', 'is_bot': False, 'last_name': 'Кутузов', 'username': 'ArtemCoolAc', 'language_code': 'ru'}}}
+2020-08-29 15:12:05,690 - root - INFO - SELECT old_url, new_url, date FROM requests_history
+                  ORDER BY date DESC LIMIT 10
+2020-08-29 15:12:05,804 - telegram.bot - DEBUG - Entering: send_message
+2020-08-29 15:12:05,930 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/sendMessage HTTP/1.1" 200 4554
+2020-08-29 15:12:05,931 - telegram.bot - DEBUG - {'message_id': 193, 'date': 1598703125, 'chat': {'id': 673847703, 'type': 'private', 'username': 'ArtemCoolAc', 'first_name': 'Артем', 'last_name': 'Кутузов'}, 'text': 'История последних успешных 10 обращений: \n (или все, если меньше)1) Обычная ссылка: https://mail.ru, сокращенная: https://rel.ink/nKDQvx, время создания: 29 Aug 2020 15:12:01\n2) Обычная ссылка: http://www.leduchamp.com/, сокращенная: https://rel.ink/kdMevZ, время создания: 28 Aug 2020 22:34:25\n3) Обычная ссылка: https://www.remove.bg/, сокращенная: https://rel.ink/nROJJp, время создания: 28 Aug 2020 22:06:48\n4) Обычная ссылка: http://r33b.net/, сокращенная: https://rel.ink/913XlK, время создания: 28 Aug 2020 20:13:37\n5) Обычная ссылка: http://tunnelsnakes.com/, сокращенная: https://rel.ink/goZp2b, время создания: 28 Aug 2020 20:13:17\n6) Обычная ссылка: http://www.partridgegetslucky.com/, сокращенная: https://rel.ink/gNyBav, время создания: 28 Aug 2020 20:13:08\n7) Обычная ссылка: https://heeeeeeeey.com/, сокращенная: https://rel.ink/k5Przd, время создания: 28 Aug 2020 20:12:45\n8) Обычная ссылка: http://app.thefacesoffacebook.com/, сокращенная: https://rel.ink/nq5wYx, время создания: 28 Aug 2020 20:12:03\n9) Обычная ссылка: https://google.gik-team.com/?q=%D1%82%D0%B1%D0%BB%D0%BE%D0%BF, сокращенная: https://rel.ink/n7Zy4Y, время создания: 28 Aug 2020 20:12:00\n10) Обычная ссылка: http://www.theendofreason.com/, сокращенная: https://rel.ink/gAyjOQ, время создания: 28 Aug 2020 20:11:55', 'entities': [{'type': 'url', 'offset': 84, 'length': 15}, {'type': 'url', 'offset': 114, 'length': 22}, {'type': 'url', 'offset': 194, 'length': 25}, {'type': 'url', 'offset': 234, 'length': 22}, {'type': 'url', 'offset': 314, 'length': 22}, {'type': 'url', 'offset': 351, 'length': 22}, {'type': 'url', 'offset': 431, 'length': 16}, {'type': 'url', 'offset': 462, 'length': 22}, {'type': 'url', 'offset': 542, 'length': 24}, {'type': 'url', 'offset': 581, 'length': 22}, {'type': 'url', 'offset': 661, 'length': 34}, {'type': 'url', 'offset': 710, 'length': 22}, {'type': 'url', 'offset': 790, 'length': 23}, {'type': 'url', 'offset': 828, 'length': 22}, {'type': 'url', 'offset': 908, 'length': 34}, {'type': 'url', 'offset': 957, 'length': 22}, {'type': 'url', 'offset': 1037, 'length': 61}, {'type': 'url', 'offset': 1113, 'length': 22}, {'type': 'url', 'offset': 1194, 'length': 30}, {'type': 'url', 'offset': 1239, 'length': 22}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1255478538, 'first_name': 'short-link-bot', 'is_bot': True, 'username': 'ShortLinkAPIBot'}}
+2020-08-29 15:12:05,932 - telegram.bot - DEBUG - Exiting: send_message
+2020-08-29 15:12:15,761 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:12:15,762 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:12:15,762 - telegram.bot - DEBUG - []
+2020-08-29 15:12:15,762 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:12:15,763 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:12:25,826 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:12:25,827 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:12:25,827 - telegram.bot - DEBUG - []
+2020-08-29 15:12:25,827 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:12:25,827 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:12:35,890 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:12:35,891 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:12:35,891 - telegram.bot - DEBUG - []
+2020-08-29 15:12:35,891 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:12:35,891 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:12:45,955 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:12:45,956 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:12:45,956 - telegram.bot - DEBUG - []
+2020-08-29 15:12:45,956 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:12:45,956 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:12:55,781 - telegram.ext.dispatcher - DEBUG - Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x7ff0c1265cd0>
+2020-08-29 15:12:55,782 - telegram.bot - DEBUG - Entering: get_me
+2020-08-29 15:12:55,782 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.telegram.org
+2020-08-29 15:12:55,999 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getMe HTTP/1.1" 200 202
+2020-08-29 15:12:56,000 - telegram.bot - DEBUG - {'id': 1255478538, 'first_name': 'short-link-bot', 'is_bot': True, 'username': 'ShortLinkAPIBot', 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}
+2020-08-29 15:12:56,000 - telegram.bot - DEBUG - Exiting: get_me
+2020-08-29 15:12:56,000 - telegram.bot - DEBUG - Entering: get_my_commands
+2020-08-29 15:12:56,078 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getMyCommands HTTP/1.1" 200 23
+2020-08-29 15:12:56,079 - telegram.bot - DEBUG - []
+2020-08-29 15:12:56,079 - telegram.bot - DEBUG - Exiting: get_my_commands
+2020-08-29 15:12:56,080 - JobQueue - DEBUG - JobQueue thread started
+2020-08-29 15:12:56,080 - telegram.ext.updater - DEBUG - Bot:1255478538:dispatcher - started
+2020-08-29 15:12:56,081 - telegram.ext.updater - DEBUG - Bot:1255478538:updater - started
+2020-08-29 15:12:56,082 - telegram.ext.updater - DEBUG - Updater thread started (polling)
+2020-08-29 15:12:56,082 - telegram.ext.updater - DEBUG - Start network loop retry bootstrap del webhook
+2020-08-29 15:12:56,082 - telegram.bot - DEBUG - Entering: delete_webhook
+2020-08-29 15:12:56,084 - telegram.ext.dispatcher - DEBUG - Dispatcher started
+2020-08-29 15:12:56,146 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/deleteWebhook HTTP/1.1" 200 68
+2020-08-29 15:12:56,147 - telegram.bot - DEBUG - True
+2020-08-29 15:12:56,147 - telegram.bot - DEBUG - Exiting: delete_webhook
+2020-08-29 15:12:56,147 - telegram.ext.updater - DEBUG - Bootstrap done
+2020-08-29 15:12:56,147 - telegram.ext.updater - DEBUG - Start network loop retry getting Updates
+2020-08-29 15:12:56,147 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:13:02,696 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 529
+2020-08-29 15:13:02,696 - telegram.bot - DEBUG - Getting updates: [768019629]
+2020-08-29 15:13:02,697 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x7ff0c05d02d0>]
+2020-08-29 15:13:02,698 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:13:02,698 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:13:02,699 - telegram.ext.dispatcher - DEBUG - Processing Update: {'update_id': 768019629, 'message': {'message_id': 194, 'date': 1598703182, 'chat': {'id': 673847703, 'type': 'private', 'username': 'ArtemCoolAc', 'first_name': 'Артем', 'last_name': 'Кутузов'}, 'text': '/history 3', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 8}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 673847703, 'first_name': 'Артем', 'is_bot': False, 'last_name': 'Кутузов', 'username': 'ArtemCoolAc', 'language_code': 'ru'}}}
+2020-08-29 15:13:02,699 - root - INFO - SELECT old_url, new_url, date FROM requests_history
+                  ORDER BY date DESC LIMIT 3
+2020-08-29 15:13:02,703 - telegram.bot - DEBUG - Entering: send_message
+2020-08-29 15:13:02,704 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (2): api.telegram.org
+2020-08-29 15:13:02,955 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/sendMessage HTTP/1.1" 200 1800
+2020-08-29 15:13:02,957 - telegram.bot - DEBUG - {'message_id': 195, 'date': 1598703182, 'chat': {'id': 673847703, 'type': 'private', 'username': 'ArtemCoolAc', 'first_name': 'Артем', 'last_name': 'Кутузов'}, 'text': 'История последних успешных 3 обращений \n (или все, если меньше)\n1) Обычная ссылка: https://mail.ru, сокращенная: https://rel.ink/nKDQvx, время создания: 29 Aug 2020 15:12:01\n2) Обычная ссылка: http://www.leduchamp.com/, сокращенная: https://rel.ink/kdMevZ, время создания: 28 Aug 2020 22:34:25\n3) Обычная ссылка: https://www.remove.bg/, сокращенная: https://rel.ink/nROJJp, время создания: 28 Aug 2020 22:06:48', 'entities': [{'type': 'url', 'offset': 83, 'length': 15}, {'type': 'url', 'offset': 113, 'length': 22}, {'type': 'url', 'offset': 193, 'length': 25}, {'type': 'url', 'offset': 233, 'length': 22}, {'type': 'url', 'offset': 313, 'length': 22}, {'type': 'url', 'offset': 350, 'length': 22}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1255478538, 'first_name': 'short-link-bot', 'is_bot': True, 'username': 'ShortLinkAPIBot'}}
+2020-08-29 15:13:02,957 - telegram.bot - DEBUG - Exiting: send_message
+2020-08-29 15:13:12,762 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:13:12,763 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:13:12,763 - telegram.bot - DEBUG - []
+2020-08-29 15:13:12,764 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:13:12,764 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:13:22,833 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:13:22,833 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:13:22,834 - telegram.bot - DEBUG - []
+2020-08-29 15:13:22,834 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:13:22,834 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:13:25,602 - telegram.ext.dispatcher - DEBUG - Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x7ff58a02ab10>
+2020-08-29 15:13:25,603 - telegram.bot - DEBUG - Entering: get_me
+2020-08-29 15:13:25,603 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.telegram.org
+2020-08-29 15:13:25,822 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getMe HTTP/1.1" 200 202
+2020-08-29 15:13:25,823 - telegram.bot - DEBUG - {'id': 1255478538, 'first_name': 'short-link-bot', 'is_bot': True, 'username': 'ShortLinkAPIBot', 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}
+2020-08-29 15:13:25,824 - telegram.bot - DEBUG - Exiting: get_me
+2020-08-29 15:13:25,824 - telegram.bot - DEBUG - Entering: get_my_commands
+2020-08-29 15:13:25,913 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getMyCommands HTTP/1.1" 200 23
+2020-08-29 15:13:25,914 - telegram.bot - DEBUG - []
+2020-08-29 15:13:25,914 - telegram.bot - DEBUG - Exiting: get_my_commands
+2020-08-29 15:13:25,914 - JobQueue - DEBUG - JobQueue thread started
+2020-08-29 15:13:25,915 - telegram.ext.updater - DEBUG - Bot:1255478538:dispatcher - started
+2020-08-29 15:13:25,915 - telegram.ext.updater - DEBUG - Bot:1255478538:updater - started
+2020-08-29 15:13:25,915 - telegram.ext.updater - DEBUG - Updater thread started (polling)
+2020-08-29 15:13:25,915 - telegram.ext.updater - DEBUG - Start network loop retry bootstrap del webhook
+2020-08-29 15:13:25,915 - telegram.bot - DEBUG - Entering: delete_webhook
+2020-08-29 15:13:25,918 - telegram.ext.dispatcher - DEBUG - Dispatcher started
+2020-08-29 15:13:25,981 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/deleteWebhook HTTP/1.1" 200 68
+2020-08-29 15:13:25,982 - telegram.bot - DEBUG - True
+2020-08-29 15:13:25,982 - telegram.bot - DEBUG - Exiting: delete_webhook
+2020-08-29 15:13:25,982 - telegram.ext.updater - DEBUG - Bootstrap done
+2020-08-29 15:13:25,982 - telegram.ext.updater - DEBUG - Start network loop retry getting Updates
+2020-08-29 15:13:25,983 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:13:32,025 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 529
+2020-08-29 15:13:32,026 - telegram.bot - DEBUG - Getting updates: [768019630]
+2020-08-29 15:13:32,027 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x7ff589395290>]
+2020-08-29 15:13:32,027 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:13:32,027 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:13:32,028 - telegram.ext.dispatcher - DEBUG - Processing Update: {'update_id': 768019630, 'message': {'message_id': 196, 'date': 1598703211, 'chat': {'id': 673847703, 'type': 'private', 'username': 'ArtemCoolAc', 'first_name': 'Артем', 'last_name': 'Кутузов'}, 'text': '/history 4', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 8}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 673847703, 'first_name': 'Артем', 'is_bot': False, 'last_name': 'Кутузов', 'username': 'ArtemCoolAc', 'language_code': 'ru'}}}
+2020-08-29 15:13:32,029 - root - INFO - SELECT old_url, new_url, date FROM requests_history
+                  ORDER BY date DESC LIMIT 4
+2020-08-29 15:13:32,031 - telegram.bot - DEBUG - Entering: send_message
+2020-08-29 15:13:32,031 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (2): api.telegram.org
+2020-08-29 15:13:32,287 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/sendMessage HTTP/1.1" 200 2177
+2020-08-29 15:13:32,289 - telegram.bot - DEBUG - {'message_id': 197, 'date': 1598703212, 'chat': {'id': 673847703, 'type': 'private', 'username': 'ArtemCoolAc', 'first_name': 'Артем', 'last_name': 'Кутузов'}, 'text': 'История последних успешных 4 обращений \n(или все, если меньше):\n1) Обычная ссылка: https://mail.ru, сокращенная: https://rel.ink/nKDQvx, время создания: 29 Aug 2020 15:12:01\n2) Обычная ссылка: http://www.leduchamp.com/, сокращенная: https://rel.ink/kdMevZ, время создания: 28 Aug 2020 22:34:25\n3) Обычная ссылка: https://www.remove.bg/, сокращенная: https://rel.ink/nROJJp, время создания: 28 Aug 2020 22:06:48\n4) Обычная ссылка: http://r33b.net/, сокращенная: https://rel.ink/913XlK, время создания: 28 Aug 2020 20:13:37', 'entities': [{'type': 'url', 'offset': 83, 'length': 15}, {'type': 'url', 'offset': 113, 'length': 22}, {'type': 'url', 'offset': 193, 'length': 25}, {'type': 'url', 'offset': 233, 'length': 22}, {'type': 'url', 'offset': 313, 'length': 22}, {'type': 'url', 'offset': 350, 'length': 22}, {'type': 'url', 'offset': 430, 'length': 16}, {'type': 'url', 'offset': 461, 'length': 22}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1255478538, 'first_name': 'short-link-bot', 'is_bot': True, 'username': 'ShortLinkAPIBot'}}
+2020-08-29 15:13:32,289 - telegram.bot - DEBUG - Exiting: send_message
+2020-08-29 15:13:42,097 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:13:42,098 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:13:42,100 - telegram.bot - DEBUG - []
+2020-08-29 15:13:42,100 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:13:42,100 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:13:52,164 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:13:52,165 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:13:52,165 - telegram.bot - DEBUG - []
+2020-08-29 15:13:52,165 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:13:52,165 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:13:53,797 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 584
+2020-08-29 15:13:53,798 - telegram.bot - DEBUG - Getting updates: [768019631]
+2020-08-29 15:13:53,798 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x7ff5893956d0>]
+2020-08-29 15:13:53,798 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:13:53,798 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:13:53,799 - telegram.ext.dispatcher - DEBUG - Processing Update: {'update_id': 768019631, 'message': {'message_id': 198, 'date': 1598703233, 'chat': {'id': 673847703, 'type': 'private', 'username': 'ArtemCoolAc', 'first_name': 'Артем', 'last_name': 'Кутузов'}, 'text': '/shorten https://google.com', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 8}, {'type': 'url', 'offset': 9, 'length': 18}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 673847703, 'first_name': 'Артем', 'is_bot': False, 'last_name': 'Кутузов', 'username': 'ArtemCoolAc', 'language_code': 'ru'}}}
+2020-08-29 15:13:53,799 - root - INFO - Аргументы команды укорачивания: ['https://google.com']
+2020-08-29 15:13:56,640 - telegram.bot - DEBUG - Entering: send_message
+2020-08-29 15:13:56,743 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/sendMessage HTTP/1.1" 200 512
+2020-08-29 15:13:56,745 - telegram.bot - DEBUG - {'message_id': 199, 'date': 1598703236, 'chat': {'id': 673847703, 'type': 'private', 'username': 'ArtemCoolAc', 'first_name': 'Артем', 'last_name': 'Кутузов'}, 'text': 'Сокращенная ссылка https://rel.ink/RgeNkO', 'entities': [{'type': 'url', 'offset': 19, 'length': 22}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1255478538, 'first_name': 'short-link-bot', 'is_bot': True, 'username': 'ShortLinkAPIBot'}}
+2020-08-29 15:13:56,746 - telegram.bot - DEBUG - Exiting: send_message
+2020-08-29 15:13:56,746 - root - INFO - INSERT INTO requests_history VALUES 
+                  (DEFAULT, 'https://google.com', 'https://rel.ink/RgeNkO', '2020-08-29 15:13:56.640611');
+2020-08-29 15:14:03,864 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:14:03,865 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:14:03,866 - telegram.bot - DEBUG - []
+2020-08-29 15:14:03,866 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:14:03,866 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:14:07,792 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 529
+2020-08-29 15:14:07,793 - telegram.bot - DEBUG - Getting updates: [768019632]
+2020-08-29 15:14:07,794 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x7ff5893a4e90>]
+2020-08-29 15:14:07,794 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:14:07,794 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:14:07,794 - telegram.ext.dispatcher - DEBUG - Processing Update: {'update_id': 768019632, 'message': {'message_id': 200, 'date': 1598703247, 'chat': {'id': 673847703, 'type': 'private', 'username': 'ArtemCoolAc', 'first_name': 'Артем', 'last_name': 'Кутузов'}, 'text': '/history 4', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 8}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 673847703, 'first_name': 'Артем', 'is_bot': False, 'last_name': 'Кутузов', 'username': 'ArtemCoolAc', 'language_code': 'ru'}}}
+2020-08-29 15:14:07,795 - root - INFO - SELECT old_url, new_url, date FROM requests_history
+                  ORDER BY date DESC LIMIT 4
+2020-08-29 15:14:07,796 - telegram.bot - DEBUG - Entering: send_message
+2020-08-29 15:14:07,910 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/sendMessage HTTP/1.1" 200 2179
+2020-08-29 15:14:07,911 - telegram.bot - DEBUG - {'message_id': 201, 'date': 1598703247, 'chat': {'id': 673847703, 'type': 'private', 'username': 'ArtemCoolAc', 'first_name': 'Артем', 'last_name': 'Кутузов'}, 'text': 'История последних успешных 4 обращений \n(или все, если меньше):\n1) Обычная ссылка: https://google.com, сокращенная: https://rel.ink/RgeNkO, время создания: 29 Aug 2020 15:13:56\n2) Обычная ссылка: https://mail.ru, сокращенная: https://rel.ink/nKDQvx, время создания: 29 Aug 2020 15:12:01\n3) Обычная ссылка: http://www.leduchamp.com/, сокращенная: https://rel.ink/kdMevZ, время создания: 28 Aug 2020 22:34:25\n4) Обычная ссылка: https://www.remove.bg/, сокращенная: https://rel.ink/nROJJp, время создания: 28 Aug 2020 22:06:48', 'entities': [{'type': 'url', 'offset': 83, 'length': 18}, {'type': 'url', 'offset': 116, 'length': 22}, {'type': 'url', 'offset': 196, 'length': 15}, {'type': 'url', 'offset': 226, 'length': 22}, {'type': 'url', 'offset': 306, 'length': 25}, {'type': 'url', 'offset': 346, 'length': 22}, {'type': 'url', 'offset': 426, 'length': 22}, {'type': 'url', 'offset': 463, 'length': 22}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1255478538, 'first_name': 'short-link-bot', 'is_bot': True, 'username': 'ShortLinkAPIBot'}}
+2020-08-29 15:14:07,912 - telegram.bot - DEBUG - Exiting: send_message
+2020-08-29 15:14:17,860 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:14:17,861 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:14:17,861 - telegram.bot - DEBUG - []
+2020-08-29 15:14:17,861 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:14:17,861 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:14:28,018 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:14:28,019 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:14:28,019 - telegram.bot - DEBUG - []
+2020-08-29 15:14:28,020 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:14:28,020 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:55:30,722 - telegram.ext.dispatcher - DEBUG - Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x7f780ce17c10>
+2020-08-29 15:55:30,722 - telegram.bot - DEBUG - Entering: get_me
+2020-08-29 15:55:30,724 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.telegram.org
+2020-08-29 15:55:30,952 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getMe HTTP/1.1" 200 202
+2020-08-29 15:55:30,953 - telegram.bot - DEBUG - {'id': 1255478538, 'first_name': 'short-link-bot', 'is_bot': True, 'username': 'ShortLinkAPIBot', 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}
+2020-08-29 15:55:30,953 - telegram.bot - DEBUG - Exiting: get_me
+2020-08-29 15:55:30,954 - telegram.bot - DEBUG - Entering: get_my_commands
+2020-08-29 15:55:31,033 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getMyCommands HTTP/1.1" 200 23
+2020-08-29 15:55:31,034 - telegram.bot - DEBUG - []
+2020-08-29 15:55:31,034 - telegram.bot - DEBUG - Exiting: get_my_commands
+2020-08-29 15:55:31,036 - JobQueue - DEBUG - JobQueue thread started
+2020-08-29 15:55:31,036 - telegram.ext.updater - DEBUG - Bot:1255478538:dispatcher - started
+2020-08-29 15:55:31,037 - telegram.ext.updater - DEBUG - Bot:1255478538:updater - started
+2020-08-29 15:55:31,038 - telegram.ext.updater - DEBUG - Updater thread started (polling)
+2020-08-29 15:55:31,038 - telegram.ext.updater - DEBUG - Start network loop retry bootstrap del webhook
+2020-08-29 15:55:31,038 - telegram.bot - DEBUG - Entering: delete_webhook
+2020-08-29 15:55:31,040 - telegram.ext.dispatcher - DEBUG - Dispatcher started
+2020-08-29 15:55:31,102 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/deleteWebhook HTTP/1.1" 200 68
+2020-08-29 15:55:31,102 - telegram.bot - DEBUG - True
+2020-08-29 15:55:31,103 - telegram.bot - DEBUG - Exiting: delete_webhook
+2020-08-29 15:55:31,103 - telegram.ext.updater - DEBUG - Bootstrap done
+2020-08-29 15:55:31,103 - telegram.ext.updater - DEBUG - Start network loop retry getting Updates
+2020-08-29 15:55:31,103 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:55:40,766 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 527
+2020-08-29 15:55:40,767 - telegram.bot - DEBUG - Getting updates: [768019639]
+2020-08-29 15:55:40,767 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x7f780ce49f50>]
+2020-08-29 15:55:40,767 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:55:40,767 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:55:40,768 - telegram.ext.dispatcher - DEBUG - Processing Update: {'update_id': 768019639, 'message': {'message_id': 214, 'date': 1598705740, 'chat': {'id': 673847703, 'type': 'private', 'username': 'ArtemCoolAc', 'first_name': 'Артем', 'last_name': 'Кутузов'}, 'text': '/history', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 8}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 673847703, 'first_name': 'Артем', 'is_bot': False, 'last_name': 'Кутузов', 'username': 'ArtemCoolAc', 'language_code': 'ru'}}}
+2020-08-29 15:55:40,768 - root - INFO - SELECT old_url, new_url, date FROM requests_history
+                  ORDER BY date DESC LIMIT 10
+2020-08-29 15:55:40,770 - telegram.bot - DEBUG - Entering: send_message
+2020-08-29 15:55:40,771 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (2): api.telegram.org
+2020-08-29 15:55:41,158 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/sendMessage HTTP/1.1" 200 4543
+2020-08-29 15:55:41,160 - telegram.bot - DEBUG - {'message_id': 215, 'date': 1598705741, 'chat': {'id': 673847703, 'type': 'private', 'username': 'ArtemCoolAc', 'first_name': 'Артем', 'last_name': 'Кутузов'}, 'text': 'История последних успешных 10 обращений \n(или все, если меньше):\n1) Обычная ссылка: https://google.com, сокращенная: https://rel.ink/RgeNkO, время создания: 29 Aug 2020 15:13:56\n2) Обычная ссылка: https://mail.ru, сокращенная: https://rel.ink/nKDQvx, время создания: 29 Aug 2020 15:12:01\n3) Обычная ссылка: http://www.leduchamp.com/, сокращенная: https://rel.ink/kdMevZ, время создания: 28 Aug 2020 22:34:25\n4) Обычная ссылка: https://www.remove.bg/, сокращенная: https://rel.ink/nROJJp, время создания: 28 Aug 2020 22:06:48\n5) Обычная ссылка: http://r33b.net/, сокращенная: https://rel.ink/913XlK, время создания: 28 Aug 2020 20:13:37\n6) Обычная ссылка: http://tunnelsnakes.com/, сокращенная: https://rel.ink/goZp2b, время создания: 28 Aug 2020 20:13:17\n7) Обычная ссылка: http://www.partridgegetslucky.com/, сокращенная: https://rel.ink/gNyBav, время создания: 28 Aug 2020 20:13:08\n8) Обычная ссылка: https://heeeeeeeey.com/, сокращенная: https://rel.ink/k5Przd, время создания: 28 Aug 2020 20:12:45\n9) Обычная ссылка: http://app.thefacesoffacebook.com/, сокращенная: https://rel.ink/nq5wYx, время создания: 28 Aug 2020 20:12:03\n10) Обычная ссылка: https://google.gik-team.com/?q=%D1%82%D0%B1%D0%BB%D0%BE%D0%BF, сокращенная: https://rel.ink/n7Zy4Y, время создания: 28 Aug 2020 20:12:00', 'entities': [{'type': 'url', 'offset': 84, 'length': 18}, {'type': 'url', 'offset': 117, 'length': 22}, {'type': 'url', 'offset': 197, 'length': 15}, {'type': 'url', 'offset': 227, 'length': 22}, {'type': 'url', 'offset': 307, 'length': 25}, {'type': 'url', 'offset': 347, 'length': 22}, {'type': 'url', 'offset': 427, 'length': 22}, {'type': 'url', 'offset': 464, 'length': 22}, {'type': 'url', 'offset': 544, 'length': 16}, {'type': 'url', 'offset': 575, 'length': 22}, {'type': 'url', 'offset': 655, 'length': 24}, {'type': 'url', 'offset': 694, 'length': 22}, {'type': 'url', 'offset': 774, 'length': 34}, {'type': 'url', 'offset': 823, 'length': 22}, {'type': 'url', 'offset': 903, 'length': 23}, {'type': 'url', 'offset': 941, 'length': 22}, {'type': 'url', 'offset': 1021, 'length': 34}, {'type': 'url', 'offset': 1070, 'length': 22}, {'type': 'url', 'offset': 1151, 'length': 61}, {'type': 'url', 'offset': 1227, 'length': 22}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1255478538, 'first_name': 'short-link-bot', 'is_bot': True, 'username': 'ShortLinkAPIBot'}}
+2020-08-29 15:55:41,160 - telegram.bot - DEBUG - Exiting: send_message
+2020-08-29 15:55:50,843 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:55:50,844 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:55:50,844 - telegram.bot - DEBUG - []
+2020-08-29 15:55:50,844 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:55:50,844 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:55:52,869 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 579
+2020-08-29 15:55:52,869 - telegram.bot - DEBUG - Getting updates: [768019640]
+2020-08-29 15:55:52,870 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x7f7809179b50>]
+2020-08-29 15:55:52,870 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:55:52,870 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:55:52,871 - telegram.ext.dispatcher - DEBUG - Processing Update: {'update_id': 768019640, 'message': {'message_id': 216, 'date': 1598705752, 'chat': {'id': 673847703, 'type': 'private', 'username': 'ArtemCoolAc', 'first_name': 'Артем', 'last_name': 'Кутузов'}, 'text': '/shorten https://ya.ru', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 8}, {'type': 'url', 'offset': 9, 'length': 13}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 673847703, 'first_name': 'Артем', 'is_bot': False, 'last_name': 'Кутузов', 'username': 'ArtemCoolAc', 'language_code': 'ru'}}}
+2020-08-29 15:55:52,872 - root - INFO - Аргументы команды укорачивания: ['https://ya.ru']
+2020-08-29 15:55:54,972 - telegram.bot - DEBUG - Entering: send_message
+2020-08-29 15:55:55,132 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/sendMessage HTTP/1.1" 200 512
+2020-08-29 15:55:55,133 - telegram.bot - DEBUG - {'message_id': 217, 'date': 1598705755, 'chat': {'id': 673847703, 'type': 'private', 'username': 'ArtemCoolAc', 'first_name': 'Артем', 'last_name': 'Кутузов'}, 'text': 'Сокращенная ссылка https://rel.ink/kXdoEk', 'entities': [{'type': 'url', 'offset': 19, 'length': 22}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1255478538, 'first_name': 'short-link-bot', 'is_bot': True, 'username': 'ShortLinkAPIBot'}}
+2020-08-29 15:55:55,134 - telegram.bot - DEBUG - Exiting: send_message
+2020-08-29 15:55:55,134 - root - INFO - INSERT INTO requests_history VALUES 
+                  (DEFAULT, 'https://ya.ru', 'https://rel.ink/kXdoEk', '2020-08-29 15:55:54.945065+03:00');
+2020-08-29 15:56:00,618 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 529
+2020-08-29 15:56:00,619 - telegram.bot - DEBUG - Getting updates: [768019641]
+2020-08-29 15:56:00,619 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x7f7809192790>]
+2020-08-29 15:56:00,619 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:56:00,619 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:56:00,621 - telegram.ext.dispatcher - DEBUG - Processing Update: {'update_id': 768019641, 'message': {'message_id': 218, 'date': 1598705760, 'chat': {'id': 673847703, 'type': 'private', 'username': 'ArtemCoolAc', 'first_name': 'Артем', 'last_name': 'Кутузов'}, 'text': '/history 3', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 8}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 673847703, 'first_name': 'Артем', 'is_bot': False, 'last_name': 'Кутузов', 'username': 'ArtemCoolAc', 'language_code': 'ru'}}}
+2020-08-29 15:56:00,621 - root - INFO - SELECT old_url, new_url, date FROM requests_history
+                  ORDER BY date DESC LIMIT 3
+2020-08-29 15:56:00,624 - telegram.bot - DEBUG - Entering: send_message
+2020-08-29 15:56:00,744 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/sendMessage HTTP/1.1" 200 1784
+2020-08-29 15:56:00,745 - telegram.bot - DEBUG - {'message_id': 219, 'date': 1598705760, 'chat': {'id': 673847703, 'type': 'private', 'username': 'ArtemCoolAc', 'first_name': 'Артем', 'last_name': 'Кутузов'}, 'text': 'История последних успешных 3 обращений \n(или все, если меньше):\n1) Обычная ссылка: https://ya.ru, сокращенная: https://rel.ink/kXdoEk, время создания: 29 Aug 2020 15:55:54\n2) Обычная ссылка: https://google.com, сокращенная: https://rel.ink/RgeNkO, время создания: 29 Aug 2020 15:13:56\n3) Обычная ссылка: https://mail.ru, сокращенная: https://rel.ink/nKDQvx, время создания: 29 Aug 2020 15:12:01', 'entities': [{'type': 'url', 'offset': 83, 'length': 13}, {'type': 'url', 'offset': 111, 'length': 22}, {'type': 'url', 'offset': 191, 'length': 18}, {'type': 'url', 'offset': 224, 'length': 22}, {'type': 'url', 'offset': 304, 'length': 15}, {'type': 'url', 'offset': 334, 'length': 22}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1255478538, 'first_name': 'short-link-bot', 'is_bot': True, 'username': 'ShortLinkAPIBot'}}
+2020-08-29 15:56:00,746 - telegram.bot - DEBUG - Exiting: send_message
+2020-08-29 15:56:10,687 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:56:10,688 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:56:10,688 - telegram.bot - DEBUG - []
+2020-08-29 15:56:10,689 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:56:10,689 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:56:20,754 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:56:20,754 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:56:20,755 - telegram.bot - DEBUG - []
+2020-08-29 15:56:20,755 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:56:20,755 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:56:30,826 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:56:30,827 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:56:30,827 - telegram.bot - DEBUG - []
+2020-08-29 15:56:30,827 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:56:30,827 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:56:40,891 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:56:40,891 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:56:40,892 - telegram.bot - DEBUG - []
+2020-08-29 15:56:40,892 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:56:40,892 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:56:50,955 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:56:50,956 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:56:50,956 - telegram.bot - DEBUG - []
+2020-08-29 15:56:50,956 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:56:50,956 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:57:01,023 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:57:01,024 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:57:01,024 - telegram.bot - DEBUG - []
+2020-08-29 15:57:01,024 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:57:01,024 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:57:11,100 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:57:11,101 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:57:11,101 - telegram.bot - DEBUG - []
+2020-08-29 15:57:11,101 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:57:11,102 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:57:21,193 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:57:21,194 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:57:21,194 - telegram.bot - DEBUG - []
+2020-08-29 15:57:21,194 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:57:21,194 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:57:31,259 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:57:31,260 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:57:31,260 - telegram.bot - DEBUG - []
+2020-08-29 15:57:31,260 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:57:31,261 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:57:41,324 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:57:41,324 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:57:41,324 - telegram.bot - DEBUG - []
+2020-08-29 15:57:41,325 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:57:41,325 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:57:51,427 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:57:51,427 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:57:51,427 - telegram.bot - DEBUG - []
+2020-08-29 15:57:51,428 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:57:51,428 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:58:01,496 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:58:01,497 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:58:01,497 - telegram.bot - DEBUG - []
+2020-08-29 15:58:01,497 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:58:01,498 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:58:11,565 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:58:11,566 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:58:11,566 - telegram.bot - DEBUG - []
+2020-08-29 15:58:11,566 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:58:11,566 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:58:21,650 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:58:21,651 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:58:21,651 - telegram.bot - DEBUG - []
+2020-08-29 15:58:21,651 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:58:21,651 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:58:31,718 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:58:31,720 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:58:31,720 - telegram.bot - DEBUG - []
+2020-08-29 15:58:31,720 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:58:31,720 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:58:41,789 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:58:41,790 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:58:41,790 - telegram.bot - DEBUG - []
+2020-08-29 15:58:41,790 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:58:41,790 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:58:51,860 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:58:51,860 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:58:51,860 - telegram.bot - DEBUG - []
+2020-08-29 15:58:51,860 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:58:51,861 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:59:01,924 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:59:01,924 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:59:01,925 - telegram.bot - DEBUG - []
+2020-08-29 15:59:01,925 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:59:01,925 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:59:11,991 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:59:11,992 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:59:11,992 - telegram.bot - DEBUG - []
+2020-08-29 15:59:11,992 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:59:11,992 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:59:22,060 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:59:22,061 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:59:22,061 - telegram.bot - DEBUG - []
+2020-08-29 15:59:22,061 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:59:22,061 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:59:32,124 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:59:32,125 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:59:32,126 - telegram.bot - DEBUG - []
+2020-08-29 15:59:32,126 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:59:32,126 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:59:42,192 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:59:42,192 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:59:42,193 - telegram.bot - DEBUG - []
+2020-08-29 15:59:42,193 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:59:42,193 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 15:59:52,257 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 15:59:52,258 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 15:59:52,258 - telegram.bot - DEBUG - []
+2020-08-29 15:59:52,259 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 15:59:52,259 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 16:00:02,323 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 16:00:02,324 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 16:00:02,324 - telegram.bot - DEBUG - []
+2020-08-29 16:00:02,325 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 16:00:02,325 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 16:00:12,405 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 200 23
+2020-08-29 16:00:12,405 - telegram.bot - DEBUG - No new updates found.
+2020-08-29 16:00:12,405 - telegram.bot - DEBUG - []
+2020-08-29 16:00:12,406 - telegram.bot - DEBUG - Exiting: get_updates
+2020-08-29 16:00:12,406 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 16:00:13,530 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 409 143
+2020-08-29 16:00:13,531 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2020-08-29 16:00:13,531 - telegram.ext.dispatcher - DEBUG - Processing Update: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2020-08-29 16:00:13,532 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/artemcoolac/Telegram-Short-Link-Bot/short_link_bot/lib/python3.7/site-packages/telegram/ext/updater.py", line 379, in _network_loop_retry
+    if not action_cb():
+  File "/home/artemcoolac/Telegram-Short-Link-Bot/short_link_bot/lib/python3.7/site-packages/telegram/ext/updater.py", line 340, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/home/artemcoolac/Telegram-Short-Link-Bot/short_link_bot/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/home/artemcoolac/Telegram-Short-Link-Bot/short_link_bot/lib/python3.7/site-packages/telegram/bot.py", line 2138, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/home/artemcoolac/Telegram-Short-Link-Bot/short_link_bot/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/home/artemcoolac/Telegram-Short-Link-Bot/short_link_bot/lib/python3.7/site-packages/telegram/utils/request.py", line 248, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2020-08-29 16:00:14,532 - telegram.bot - DEBUG - Entering: get_updates
+2020-08-29 16:00:18,670 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot1255478538:AAH8G28xcvR30M_ORcSai19Am-aLNM1pDJ4/getUpdates HTTP/1.1" 409 143
+2020-08-29 16:00:18,671 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2020-08-29 16:00:18,671 - telegram.ext.dispatcher - DEBUG - Processing Update: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2020-08-29 16:00:18,671 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/artemcoolac/Telegram-Short-Link-Bot/short_link_bot/lib/python3.7/site-packages/telegram/ext/updater.py", line 379, in _network_loop_retry
+    if not action_cb():
+  File "/home/artemcoolac/Telegram-Short-Link-Bot/short_link_bot/lib/python3.7/site-packages/telegram/ext/updater.py", line 340, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/home/artemcoolac/Telegram-Short-Link-Bot/short_link_bot/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/home/artemcoolac/Telegram-Short-Link-Bot/short_link_bot/lib/python3.7/site-packages/telegram/bot.py", line 2138, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/home/artemcoolac/Telegram-Short-Link-Bot/short_link_bot/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/home/artemcoolac/Telegram-Short-Link-Bot/short_link_bot/lib/python3.7/site-packages/telegram/utils/request.py", line 248, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running

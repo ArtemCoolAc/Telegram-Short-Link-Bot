@@ -23,6 +23,7 @@ class BotDatabase:
                     user=os.getenv('POSTGRES_USER'),
                     password=os.getenv('POSTGRES_PASSWORD'),
                     host=os.getenv('POSTGRES_HOST'),
+                    # host='127.0.0.1',
                     port=os.getenv('POSTGRES_PORT'),
                     database=os.getenv('POSTGRES_DB')
                 )
@@ -112,6 +113,7 @@ class Bot:
                     if response.status_code == 201:
                         response_data = response.json()
                         hashid = response_data['hashid']
+                        # creation_time = str(datetime.now().astimezone(get_localzone()))
                         creation_time = str(datetime.now())
                         short_url = f'https://rel.ink/{hashid}'
                         message = f'Сокращенная ссылка {short_url}'
@@ -132,7 +134,7 @@ class Bot:
             query_result = self.database.get_history_part(quantity)
             bot_data = namedtuple('Query_data', ['user_link', 'short_link', 'date'])
             named_data = [bot_data(*tup) for tup in query_result]
-            message = f'История последних успешных {quantity} обращений: \n (или все, если меньше)' + \
+            message = f'История последних успешных {quantity} обращений \n(или все, если меньше):\n' + \
                       '\n'.join([f'{idx + 1}) Обычная ссылка: {tup.user_link}, сокращенная: {tup.short_link},'
                                  f' время создания: {tup.date}' for idx, tup in enumerate(named_data)])
             context.bot.send_message(chat_id=update.effective_chat.id, text=message)

@@ -3,7 +3,6 @@ version: "3"
 services:
   postgresql:
     image: library/postgres:12
-    # image: library/postgres:12-alpine
     env_file: .env
     volumes:
     - ./postgres-docker/pgdata:/var/lib/postgresql/data/pgdata
@@ -13,8 +12,8 @@ services:
   application:
     build: ./
     env_file: .env
-    command: bash -c "python bot.py"
-    links:
+    command: bash -c "while !</dev/tcp/postgresql/5432; do sleep 1; done && python bot.py"
+    depends_on:
       - postgresql
     expose:
       - 8000
