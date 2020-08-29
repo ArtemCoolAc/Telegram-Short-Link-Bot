@@ -6,3 +6,4 @@ share/
 bin/
 __pycache__/
 short_link_bot/
+.env

@@ -2,10 +2,11 @@ import logging
 from telegram.ext import Updater, CommandHandler
 import requests
 import validators
-from local_settings import get_token, connect_to_database, get_private_data
 from datetime import datetime
 from collections import namedtuple
 import psycopg2
+import os
+from dotenv import load_dotenv
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.DEBUG,
@@ -18,21 +19,21 @@ class BotDatabase:
         @staticmethod
         def connect_to_bot_database():
             try:
-                private = get_private_data()
                 connection = psycopg2.connect(
-                    user=private.user,
-                    password=private.password,
-                    host=private.host,
-                    port=private.port,
-                    database=private.database
+                    user=os.getenv('POSTGRES_USER'),
+                    password=os.getenv('POSTGRES_PASSWORD'),
+                    host=os.getenv('POSTGRES_HOST'),
+                    port=os.getenv('POSTGRES_PORT'),
+                    database=os.getenv('POSTGRES_DB')
                 )
+                return connection
             except Exception as e:
                 logging.error(e)
-            return connection
 
     def __init__(self):
         self.connection = self.DatabaseConfig.connect_to_bot_database()
         self.cursor = self.connection.cursor()
+        self.create_history_table()
 
     def _execute_command(self, command):
         try:
@@ -42,7 +43,7 @@ class BotDatabase:
             logging.error(exc)
 
     def create_history_table(self):
-        command = f"CREATE TABLE IF NOT EXISTS request_history (" \
+        command = f"CREATE TABLE IF NOT EXISTS requests_history (" \
                   f"id SERIAL UNIQUE , " \
                   f"old_url VARCHAR(300), " \
                   f"new_url VARCHAR(30), " \
@@ -71,7 +72,9 @@ class BotDatabase:
 
 class Bot:
     class BotConfig:
-        TOKEN = get_token()
+        dotenv_path = os.path.join(os.path.dirname(__file__), '.env')
+        load_dotenv(dotenv_path)
+        TOKEN = os.getenv('TELEGRAM_TOKEN')
         API_URL = 'https://rel.ink/api/links/'
 
     def __init__(self):
@@ -115,7 +118,7 @@ class Bot:
                         context.bot.send_message(chat_id=update.effective_chat.id, text=message)
                         self.database.insert_record(url, short_url, creation_time)
                     else:
-                        message = 'Произошла ошибка во время запроса к API'
+                        message = f'Произошла ошибка во время запроса к API: код {response.status_code}'
                         context.bot.send_message(chat_id=update.effective_chat.id, text=message)
 
         except Exception as e:
@@ -129,7 +132,7 @@ class Bot:
             query_result = self.database.get_history_part(quantity)
             bot_data = namedtuple('Query_data', ['user_link', 'short_link', 'date'])
             named_data = [bot_data(*tup) for tup in query_result]
-            message = f'История последних успешных {quantity} обращений: \n' + \
+            message = f'История последних успешных {quantity} обращений: \n (или все, если меньше)' + \
                       '\n'.join([f'{idx + 1}) Обычная ссылка: {tup.user_link}, сокращенная: {tup.short_link},'
                                  f' время создания: {tup.date}' for idx, tup in enumerate(named_data)])
             context.bot.send_message(chat_id=update.effective_chat.id, text=message)

@@ -11,12 +11,12 @@ jedi==0.17.2
 parso==0.7.1
 pexpect==4.8.0
 pickleshare==0.7.5
-pkg-resources==0.0.0
 prompt-toolkit==3.0.6
 psycopg2-binary==2.8.5
 ptyprocess==0.6.0
 pycparser==2.20
 Pygments==2.6.1
+python-dotenv==0.14.0
 python-telegram-bot==12.8
 requests==2.24.0
 six==1.15.0
